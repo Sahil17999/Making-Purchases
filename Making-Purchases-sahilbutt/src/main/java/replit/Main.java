@@ -2,8 +2,6 @@
   Write your header information here.
   Name: Sahil Butt
   Date: Thu July 7
-  Course code: ics3u1-1
-  Teacher: Jeff Raduloviv
   Description of program: The following user will have the ability to choose the number of slices they want to buy. There are 5 different pizza styles to choose from. The output is the amount taxes, the subtotal, and the grand total.
 
 **/
@@ -60,7 +58,6 @@ public class Main extends Application
     HBox hbox5;
     Scene scene;
 
-    //Initialise your text fields here
     //pixels are set for proportionalities
     //Red color is used for labels and text fields
     
@@ -120,8 +117,6 @@ public class Main extends Application
     button = new Button("Calculate");
     button.setTextFill(Color.RED);
 
-    //Labels initialised
-
     amtTaxes = new Label("Taxes (13%):");
     amtTaxes.setTextFill(Color.RED);
     Subtotal = new Label("Subtotal:");
@@ -129,7 +124,6 @@ public class Main extends Application
     grandTotal = new Label("Grand Total:");
     grandTotal.setTextFill(Color.RED);
 
-    //Labels initialised
     //Default prices of 0 pizza slices
 
     taxPrice = new Label("$0.00");
