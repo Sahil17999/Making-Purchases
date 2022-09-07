@@ -1,7 +1,6 @@
 /**
   Write your header information here.
   Name: Sahil Butt
-  Date: Thu July 7
   Description of program: The following user will have the ability to choose the number of slices they want to buy. There are 5 different pizza styles to choose from. The output is the amount taxes, the subtotal, and the grand total.
 
 **/
@@ -163,7 +162,6 @@ public class Main extends Application
 
         grandPrice.setText("$" + (Math.round((num1 + num2)*100.0) / 100.0));
 
-        
       }
   
     });
@@ -200,8 +198,6 @@ public class Main extends Application
     //Scene is set to it's appropriate proportionality
     scene = new Scene(vbox, 564, 450);
 
-    //The title and scene are set
-    //Both are then shown
     primaryStage.setTitle("Sahil's Pizzaria!");
     primaryStage.setScene(scene);
     primaryStage.show();
