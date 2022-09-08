@@ -29,8 +29,6 @@ public class Main extends Application
   @Override
   public void start(Stage primaryStage) {
     
-    //Define your variables here
-    
     Label Sublabel; 
     Label Label1; 
     Label Label2; 
@@ -135,7 +133,7 @@ public class Main extends Application
     button.setOnAction(new EventHandler<ActionEvent>() {
       @Override public void handle(ActionEvent e) {
         
-        //Parsing text data into a integer
+      //Parsing text data into a integer
 
       int n1 = Integer.parseInt(tf1.getText());
       int n2 = Integer.parseInt(tf2.getText());
