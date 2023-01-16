@@ -1,8 +1,6 @@
 /**
-  Write your header information here.
   Name: Sahil Butt
   Description of program: The following user will have the ability to choose the number of slices they want to buy. There are 5 different pizza styles to choose from. The output is the amount taxes, the subtotal, and the grand total.
-
 **/
 package replit;
 
